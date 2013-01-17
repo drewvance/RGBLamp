@@ -1,6 +1,7 @@
+  int blue = 9;
   int red = 10;
   int green =11;
-  int blue = 9;
+  
   int current_led;
   char incomingByte;              
   char cmdMsg[100];  
