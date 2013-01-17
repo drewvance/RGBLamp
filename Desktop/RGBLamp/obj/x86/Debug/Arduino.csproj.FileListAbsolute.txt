@@ -1,0 +1,28 @@
+c:\users\drew\documents\visual studio 2010\Projects\Arduino\Arduino\bin\Debug\Arduino.exe
+c:\users\drew\documents\visual studio 2010\Projects\Arduino\Arduino\bin\Debug\Arduino.pdb
+c:\users\drew\documents\visual studio 2010\Projects\Arduino\Arduino\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\drew\documents\visual studio 2010\Projects\Arduino\Arduino\obj\x86\Debug\MainWindow.baml
+c:\users\drew\documents\visual studio 2010\Projects\Arduino\Arduino\obj\x86\Debug\MainWindow.g.cs
+c:\users\drew\documents\visual studio 2010\Projects\Arduino\Arduino\obj\x86\Debug\App.g.cs
+c:\users\drew\documents\visual studio 2010\Projects\Arduino\Arduino\obj\x86\Debug\Arduino_MarkupCompile.cache
+c:\users\drew\documents\visual studio 2010\Projects\Arduino\Arduino\obj\x86\Debug\Arduino.g.resources
+c:\users\drew\documents\visual studio 2010\Projects\Arduino\Arduino\obj\x86\Debug\Arduino.Properties.Resources.resources
+c:\users\drew\documents\visual studio 2010\Projects\Arduino\Arduino\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\drew\documents\visual studio 2010\Projects\Arduino\Arduino\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\drew\documents\visual studio 2010\Projects\Arduino\Arduino\obj\x86\Debug\Arduino.exe
+c:\users\drew\documents\visual studio 2010\Projects\Arduino\Arduino\obj\x86\Debug\Arduino.pdb
+E:\Users\Drew\Documents\Visual Studio 2010\Projects\Arduino\Arduino\obj\x86\Debug\Arduino.exe
+E:\Users\Drew\Documents\Visual Studio 2010\Projects\Arduino\Arduino\obj\x86\Debug\Arduino.pdb
+C:\Users\Drew\Desktop\Arduino\Arduino\obj\x86\Debug\Arduino.exe
+C:\Users\Drew\Desktop\Arduino\Arduino\obj\x86\Debug\Arduino.pdb
+C:\Users\Drew\Desktop\Arduino\Arduino\bin\Debug\Arduino.exe
+C:\Users\Drew\Desktop\Arduino\Arduino\bin\Debug\Arduino.pdb
+C:\Users\Drew\Desktop\Arduino\Arduino\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Drew\Desktop\Arduino\Arduino\obj\x86\Debug\MainWindow.baml
+C:\Users\Drew\Desktop\Arduino\Arduino\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Drew\Desktop\Arduino\Arduino\obj\x86\Debug\App.g.cs
+C:\Users\Drew\Desktop\Arduino\Arduino\obj\x86\Debug\Arduino_MarkupCompile.cache
+C:\Users\Drew\Desktop\Arduino\Arduino\obj\x86\Debug\Arduino.g.resources
+C:\Users\Drew\Desktop\Arduino\Arduino\obj\x86\Debug\Arduino.Properties.Resources.resources
+C:\Users\Drew\Desktop\Arduino\Arduino\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Drew\Desktop\Arduino\Arduino\obj\x86\Debug\GenerateResource.write.1.tlog
