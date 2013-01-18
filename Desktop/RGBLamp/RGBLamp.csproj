@@ -63,7 +63,10 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ArduinoCommand.cs" />
+    <Compile Include="Classes\ApplicationState.cs" />
+    <Compile Include="Classes\ArduinoCommand.cs" />
+    <Compile Include="Classes\EnumToBoolConverter.cs" />
+    <Compile Include="Classes\ArduinoUpdater.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>

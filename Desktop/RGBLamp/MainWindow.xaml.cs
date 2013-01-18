@@ -14,6 +14,8 @@ using System.Windows.Shapes;
 using System.IO.Ports;
 using System.Windows.Threading;
 using System.Threading;
+using RGBLamp.Classes;
+using System.ComponentModel;
 
 namespace RGBLamp
 {
@@ -23,33 +25,15 @@ namespace RGBLamp
     public partial class MainWindow : Window
     {
         private ArduinoCommand _commandSender;
+        private ArduinoUpdater _listener; 
 
         public MainWindow()
         {
             _commandSender = new ArduinoCommand();
             InitializeComponent();
-
-            // set values on start
-            _commandSender.UpdateColorValue(ArduinoCommand.Colors.Red, red.Value);
-            _commandSender.UpdateColorValue(ArduinoCommand.Colors.Green, blue.Value);
-            _commandSender.UpdateColorValue(ArduinoCommand.Colors.Blue, green.Value);
-
-            
-        }
-
-        private void red_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
-        {
-            _commandSender.UpdateColorValue(ArduinoCommand.Colors.Red, e.NewValue);
-        }
-
-        private void blue_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
-        {
-            _commandSender.UpdateColorValue(ArduinoCommand.Colors.Blue, e.NewValue);
-        }
-
-        private void green_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
-        {
-            _commandSender.UpdateColorValue(ArduinoCommand.Colors.Green, e.NewValue);
+            ApplicationState state = new ApplicationState();
+            this.DataContext = state;
+            _listener = new ArduinoUpdater(state);
         }
     }
 }
