@@ -12,7 +12,7 @@ namespace RGBLamp.Classes
         public enum Mode
         {
             Random,
-            WarpCore,
+            Keyboard,
             Static
         }
 

@@ -67,6 +67,10 @@
     <Compile Include="Classes\ArduinoCommand.cs" />
     <Compile Include="Classes\EnumToBoolConverter.cs" />
     <Compile Include="Classes\ArduinoUpdater.cs" />
+    <Compile Include="Classes\Updaters\KeyboardUpdateHandler.cs" />
+    <Compile Include="Classes\Updaters\RandomUpdateHandler.cs" />
+    <Compile Include="Classes\Updaters\StaticUpdateHandler.cs" />
+    <Compile Include="Classes\Updaters\UpdateHandler.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>

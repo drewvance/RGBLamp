@@ -7,6 +7,9 @@ using System.Windows;
 
 namespace RGBLamp.Classes
 {
+    /// <summary>
+    /// Allows for two way databinding between radio buttons and enums
+    /// </summary>
     public class EnumToBoolConverter : IValueConverter
     {
         #region IValueConverter Members

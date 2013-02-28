@@ -16,7 +16,7 @@
         <Label Content="Red" Height="28" HorizontalAlignment="Left" Margin="327,23,0,0" Name="label3" VerticalAlignment="Top" />
         <RadioButton Content="Static" Height="16" HorizontalAlignment="Left" Margin="45,60,0,0" Name="static" GroupName="LampControl" VerticalAlignment="Top" IsChecked="{Binding Path=CurrentMode, Converter={StaticResource EnumToBoolConverter}, ConverterParameter=Static}" />
         <RadioButton Content="Random" Height="16" HorizontalAlignment="Left" Margin="45,23,0,0" Name="random" GroupName="LampControl" VerticalAlignment="Top" IsChecked="{Binding Path=CurrentMode, Converter={StaticResource EnumToBoolConverter}, ConverterParameter=Random}" />
-        <RadioButton Content="Warp Core" Height="16" HorizontalAlignment="Left" Margin="45,94,0,0" Name="warpCore" GroupName="LampControl" VerticalAlignment="Top" IsChecked="{Binding Path=CurrentMode, Converter={StaticResource EnumToBoolConverter}, ConverterParameter=WarpCore}" />
+        <RadioButton Content="Keyboard" Height="16" HorizontalAlignment="Left" Margin="45,94,0,0" Name="warpCore" GroupName="LampControl" VerticalAlignment="Top" IsChecked="{Binding Path=CurrentMode, Converter={StaticResource EnumToBoolConverter}, ConverterParameter=Keyboard}" />
         <Slider Height="23" HorizontalAlignment="Left" Margin="45,190,0,0" Maximum=".25" Minimum="0" Name="speedVal" Value="{Binding Speed}" VerticalAlignment="Top" Width="100" />
         <Label Content="Speed" Height="28" HorizontalAlignment="Left" Margin="45,156,0,0" Name="speed" VerticalAlignment="Top" />
     </Grid>
